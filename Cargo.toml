@@ -1,0 +1,15 @@
+[package]
+name = "gnip"
+version = "0.1.0"
+authors = ["Jay Kruer <j@dank.systems>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.0"
+dns-lookup = "1.0.1"
+nix = "0.17.0"
+packet = "0.1.2"
+libc = "0.2.69"
+signal-hook = "0.1.13"
